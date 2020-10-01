@@ -19,4 +19,7 @@ class Status:
         self.tb = None
         self.logger_info = None
         self.error_text = None
+    
+    def set_name(name):
+        self.name = str(name)
 
